@@ -1,0 +1,37 @@
+.main{
+    background-color: darkslategray;
+    height: 1000px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.image-container{
+    width: 800px;
+   height: 800px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0 30px;
+}
+.image{
+    height: 500px;
+    width: 900px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.img1{
+  padding: 50px;
+  transition: transform 2s;
+}
+.image:hover .img1{
+    transform: scale(1.6);
+}
+.img2{
+    transition: transform 2s;
+}
+.image:hover .img2{
+    transform: scale(0.6);
+}
